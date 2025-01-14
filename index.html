@@ -63,9 +63,122 @@
         .ragistration{
             margin-left:50px;
             font-size: medium;
-        } 
+        }
+        .body{
+            margin:0;
+            padding:0;
+        }
+        .box{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .card{
+            width:400px;
+            height:450px;
+            border:1px solid rgb(255, 255, 0);
+            box-shadow: 0 0 10px rgb(71, 69, 69);
+            border-radius: 10px;
+            padding-bottom:20px;
+            margin: 10px 20px;
+            justify-content:space-around;
+        
+
+        }
+        .img{
+            width:100%;
+            display:block;
+            margin: 0 auto;
+            height:200px;
+            border-radius: 10px 10px 0 0;
+            object-fit: cover;
 
 
+        }
+        .title{
+            text-align: center;
+
+        }
+        .description{
+            text-align: justify;
+            padding:0 10px;
+
+        }
+        .btn{
+            display: block;
+            margin: 0 auto;
+            font-size: 25px;
+            padding:5px 20px;
+            border-radius: 50px;
+            border:none;
+            background-color:yellow;
+        }
+
+
+
+                /* mobile */
+                @media (max-width:500px){
+            .title{
+                text-align: center;
+                padding-left: 20px;
+                font-size:20px;
+
+            }
+            .card{
+                width: 200px;
+                height:200px;
+            }
+            .btn{
+                font-size: 20px;
+                padding: 5px 10px;
+            }
+            .description{
+                font-size:15px;
+                padding: 0 20px;
+            }
+            .manu_logo{
+            display:auto;
+            margin-left:auto;
+            }
+
+
+        }
+        /*tablet*/
+        @media(max-width:600px)and (max-width:400px){
+            
+            
+            .card{
+            width:300px;
+            height:400px;
+            }
+            .title{
+                font-size:20px ;
+            }
+             .description{
+                font-size:10px;
+                font-family: monospace;
+
+             }
+             .btn{
+                font-size: 20px;
+
+             }
+             .search_box{
+                .search_box{
+                display:none;
+             }
+            }
+
+        
+        /*laptop*/
+        @media (max-width:1200px)and (max-width:800px){
+            .navbar{
+                background-color: aqua;
+            }
+            .search_box{
+                display:none;
+             }
+
+        }
     </style>
 </head>
 <body>
@@ -85,6 +198,47 @@
             Login
         </button>
         <button class="ragistration">Ragistration</button>
+        </div>
+        
+        <div class="box">
+            <div class="card">
+            <img src="./images/luxuryhotelroom.jpg" class="img" alt="room"/>
+            <h1 class="title">Laxaries rooms</h1>
+            <p class="description">Luxury hotel rooms are designed to be an oasis of luxury and comfort, with high-end features and a focus on the guest experience.</p>
+        <button class="btn">by now</button>
+        </div>
+        <div class="card">
+            <img src="" class="img" alt="room"/>
+            <h1 class="title">Laxaries rooms</h1>
+            <p class="description">Luxury hotel rooms are designed to be an oasis of luxury and comfort, with high-end features and a focus on the guest experience.</p>
+        <button class="btn">by now</button>
+        </div>
+        <div class="card">
+            <img src="" class="img" alt="room"/>
+            <h1 class="title">Laxaries rooms</h1>
+            <p class="description">Luxury hotel rooms are designed to be an oasis of luxury and comfort, with high-end features and a focus on the guest experience.</p>
+        <button class="btn">by now</button>
+        </div>
+        <div class="card">
+            <img src="" class="img" alt="room"/>
+            <h1 class="title">Laxaries rooms</h1>
+            <p class="description">Luxury hotel rooms are designed to be an oasis of luxury and comfort, with high-end features and a focus on the guest experience.</p>
+        <button class="btn">by now</button>
+        </div>
+        <div class="card">
+            <img src="" class="img" alt="room"/>
+            <h1 class="title">Laxaries rooms</h1>
+            <p class="description">Luxury hotel rooms are designed to be an oasis of luxury and comfort, with high-end features and a focus on the guest experience.</p>
+        <button class="btn">by now</button>
+        </div>
+        <div class="card">
+            <img src="" class="img" alt="room"/>
+            <h1 class="title">Laxaries rooms</h1>
+            <p class="description">Luxury hotel rooms are designed to be an oasis of luxury and comfort, with high-end features and a focus on the guest experience.</p>
+        <button class="btn">by now</button>
+        </div>
+        </div>            
+
 
            
 </body>
